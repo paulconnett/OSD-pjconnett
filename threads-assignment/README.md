@@ -8,7 +8,7 @@ python3 parallel.py
 
 ## Screenshots
 
-Location: /parallel/screenshots
+Location: /threads-assignment/screenshots
 
 # Contribution
 
