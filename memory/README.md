@@ -3,7 +3,7 @@
 This is a modified version of bench_mem that instead pulls data from a directory and finds the timing for accessing this data in a map (scattered data) and a vector (adjacent data).
 This simulates a system that searches for a department based on phone extensions. This testing program proves that vectors are faster in finding the stored data, as vectors 
 store their data right next to each other, while maps store their data in tree nodes that are usually spread around, thus increasing the amount of needed jumps to grab the data.
-This shows that vectors are better for memory optimization for cases like using a directory. ChatGpt build the input file and recommended it be 30000 entires, as this is better for testing
+This shows that vectors are better for memory optimization for cases like using a directory. ChatGpt built the input file and recommended it be 30000 entires, as this is better for testing
 timing and better reflects an organization at scale. 
 
 ## Run
