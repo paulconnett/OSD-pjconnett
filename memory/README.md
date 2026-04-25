@@ -27,3 +27,4 @@ bench_mem.cpp:
 ## References
 
 1. [ChatGPT] Created input file and helped build the Dataset struct. Additonally, it recommended and guided me through using lower_bound() vector lookup.
+2. [Dr. MacEvoy's bench_mem](https://github.com/wmacevoy/os-wmacevoy-spring-2026/blob/main/memory/bench_mem.cpp)
