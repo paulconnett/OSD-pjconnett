@@ -3,8 +3,6 @@
 This is an basic encryption/decryption demo using xor. It shows proper encryption/decryption, as well as how output is changed when using the wrong key
 ## Run
 
-## Run
-
 Create a sample file to encrypt:
 
 echo "This is my secret message for the security project." > secret.txt
