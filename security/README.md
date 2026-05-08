@@ -9,16 +9,20 @@ echo "This is my secret message for the security project." > secret.txt
 cat secret.txt
 
 Encrypt the file using a key:
+
 python3 xor_encryptor.py encrypt secret.txt encrypted.bin mykey
 
 View the encrypted file as raw bytes:
+
 xxd encrypted.bin
 
 Decrypt the file using the correct key:
+
 python3 xor_encryptor.py decrypt encrypted.bin decrypted.txt mykey
 cat decrypted.txt
 
 Decrypt the file using the wrong key:
+
 python3 xor_encryptor.py decrypt encrypted.bin wrong.txt wrongkey
 xxd wrong.txt
 
