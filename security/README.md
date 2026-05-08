@@ -27,14 +27,13 @@ xxd wrong.txt
 Location: /security/screenshots
 
 # Contribution
+  
+Added xor_data function which encrypts/decrypts data using xor,
 
-file_carver.cpp:    
-    Added xor_data function which encrypts/decrypts data using xor,
+Added process_file function which handles the main logic of the demo. It reads the input file,
+prepares the key, calls the xor_data function, then writes the output,
 
-    Added process_file function which handles the main logic of the demo. It reads the input file,
-    prepares the key, calls the xor_data function, then writes the output
-
-    Added main function which handles the command arguments for the demo and ensure program runs smoothly
+Added main function which handles the command arguments for the demo and ensure program runs smoothly
 ## References
 
 1. [ChatGPT] Assited me with xor commands to use in demo.
